@@ -1,3 +1,9 @@
-.painel-1 {
-    background-image: url(src/img/fundo-capa.jpg);
+.painel-1-topo {
+    position: absolute;
+    display:inline-flex
+}
+
+.painel-1-capa {
+    position: absolute;
+    display:inline-flex
 }
