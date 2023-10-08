@@ -1,0 +1,12 @@
+
+.painel-4 {
+	padding: 3px 10px;
+    height: 730px;
+ 
+}
+
+.tit-contato {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+}

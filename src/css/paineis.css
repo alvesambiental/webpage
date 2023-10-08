@@ -10,7 +10,7 @@
 
 .div-neto {
     display: table-row;
-    
+    border: 1px solid #999999;
 }
 
 
@@ -30,5 +30,8 @@
 .painel-2 {
 	padding: 3px 10px;
     height: 730px;
-    position: absolute;
+    
+
 }
+
+
