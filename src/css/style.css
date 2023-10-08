@@ -1,6 +1,22 @@
 .titulo-p1 {
     position: relative;
-    font-size: 20px;
-    top: 20PX;
-    left: 600PX;
+    font-size: 100px;
+    top: -80PX;
+    left: 20PX;
+}
+
+.tab-menu {
+    position: relative;
+    border: 5px;
+    border-color: black;
+    width: 200px;
+    top: -80px;
+    left: 100px;
+    font-size: 30px;
+    
+}
+
+.cel-menu {
+    padding-left: 30px;
+    padding-right:  30px;
 }
