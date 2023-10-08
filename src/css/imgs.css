@@ -1,12 +1,21 @@
 .img-fundo-p1 {
     width: 100%;
     top: 150px;
-    position: relative;
+
+    /* z-index: 1; */
 }
 
 .img-logo {
-    position: relative;
     height: 120px;
     top: 0px;
     
+}
+
+.img-painel2 {
+    position: relative;
+    top: 100px;    
+    height: 500px;
+    border-radius: 50px;
+    border-color: black;
+ 
 }
