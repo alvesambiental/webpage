@@ -1,8 +1,12 @@
 
 .painel-3 { 
     width: 100%;
-    height: 3800px;    /* 7X PAINEIS DE 750 PX */
+    height: 4800px;    /* 7X PAINEIS DE 750 PX */
     border: 1px solid #999999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .tit-servicos {
@@ -60,6 +64,14 @@
 }
 
 .img-monit {
+    height: 450px;
+    padding-right: 100px;
+    padding-top: 100px;
+    border-radius: 50px;
+
+}
+
+.img-licensa {
     height: 450px;
     padding-right: 100px;
     padding-top: 100px;

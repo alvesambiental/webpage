@@ -1,8 +1,26 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transform: translateX(400%);
+    transition: transform 1.4s ease;
+}
+
+.box.show {
+    transform: translateX(0);
+    
+}
+
+
+/*
 .init-hidden {
-    opacity: 0;
+    opacity: 0.5;
     transition: opacity 1s linear;
 }
 
 .init-hidden-off {
     opacity: 1;
 }
+*/
+
