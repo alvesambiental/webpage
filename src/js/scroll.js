@@ -9,13 +9,21 @@ function checkboxes() {
     boxes.forEach((box) => {
         const boxTop = box.getBoundingClientRect().top;
         
+        console.log(boxTop)
+        console.log(triggerBottom)
+            
         if(boxTop < triggerBottom) {
             box.classList.add('show');
         } else {
             box.classList.remove('show');
         }
     })
+
+    
+    //console.log(boxes)
+    
 }
+
 
 
 /*
