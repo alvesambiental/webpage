@@ -3,15 +3,19 @@
     align-items: center;
     justify-content: center;
 
-    transform: translateX(400%);
-    transition: transform 1.4s ease;
+    transform: translateX(200%);
+    transition: transform 0.4s ease;
 }
 
-.box.show {
+.box.enter {
     transform: translateX(0);
     
 }
 
+.box.exit {
+    transform: translateX(200%);
+    
+}
 
 /*
 .init-hidden {
