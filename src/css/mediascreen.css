@@ -130,6 +130,13 @@
         flex-direction:column;
         align-content:flex-start;
     }
+
+    .frase-capa {
+        top: 0px;
+        justify-items: center;
+        
+    }
+
 }
 
 /* ------------------------------------  PARA CELULAR PEQUENO  ------------------------------------- */
@@ -172,32 +179,3 @@
     }
 }
 
-@media screen and (max-width: 644px) {
-    .painel-1-topo {
-        
-
-    }
-    
-    .painel-1-capa {
-        width: 100%;
-        padding: 3px 10px;
-        display: flexbox;
-    }
-    
-    .img-fundo-p1 {
-        width: 150%;
-        position: relative;
-        left: -30%;
-        z-index: 0;
-    }
-
-    .titulo-p1 {
-        z-index: 2;
-        width: 100%;
-    }
-
-
-    .tab-menu {
-        width: 100%;
-    }
-}
