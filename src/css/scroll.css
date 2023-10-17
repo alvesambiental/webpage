@@ -1,8 +1,8 @@
 .box {
-    display: flex;
+    display:flex; /* ESTÁ CRIANDO A BARRA DE ROLAGEM INFERIOR POR DESLOCAR */
     align-items: center;
     justify-content: center;
-
+    
     transform: translateX(200%);
     transition: transform 0.4s ease;
 }

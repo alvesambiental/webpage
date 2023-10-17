@@ -14,18 +14,5 @@
 }
 
 
-.painel-1-topo {
-    display: inline-flex;
-    
-    height: 140px;
-	padding: 3px 10px;
-}
-
-.painel-1-capa {
-    height:600px;
-    
-	padding: 3px 10px;
-}
-
 
 

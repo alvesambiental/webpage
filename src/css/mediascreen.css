@@ -1,45 +1,5 @@
 /* ------------------------------------  PARA PC E TABLET GRANDE ------------------------------------- */
 @media only screen and (max-width: 1265px) and (min-width: 900px) {
-    .painel-1-topo {
-        width: 100%;
-        
-        display:flex;
-
-    }
-    
-    .painel-1-capa {
-        width: 100%;
-        padding: 3px 10px;
-        display: flexbox;
-    }
-    
-    .img-fundo-p1 {
-        width: 110%;
-        position: relative;
-        left: -10%;
-        z-index: 0;
-    }
-
-    .titulo-div-p1 {
-        /*
-        z-index: 2;
-        width: 100%;
-        */
-        
-        font-size:60px;
-    }
-
-    .img-logo {
-
-    }
-
-    .tab-menu {
-        width: 600px;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-}
 
 /* ------------------------------------  PARA TABLET E CELULAR DEITADO  ------------------------------------- */
 
