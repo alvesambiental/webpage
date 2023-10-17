@@ -54,7 +54,7 @@
     .painel-1-capa {
         width: 100%;
         padding: 3px 10px;
-        display: flexbox;
+        display:flex;
     }
     
     .img-fundo-p1 {
@@ -80,12 +80,17 @@
     .tab-menu {
         width: 100%;
     }
+
+    .frase-capa {
+        font-size: 1vw;
+        
+    }
 }
 
 
 /* ------------------------------------  PARA CELULAR GRANDE  ------------------------------------- */
 
-@media only screen and (max-width: 615px) and (min-width: 300px) {
+@media only screen and (max-width: 615px) /*and (min-width: 300px)*/ {
     .painel-1-topo {
         display: flex;
         width: 100%;
@@ -139,7 +144,7 @@
 
 }
 
-/* ------------------------------------  PARA CELULAR PEQUENO  ------------------------------------- */
+/* ------------------------------------  PARA CELULAR PEQUENO  ------------------------------------- 
 
 @media only screen and (max-width: 300px)  {
     .painel-1-topo {
@@ -162,10 +167,10 @@
     }
 
     .titulo-p1 {
-        /*
+  
         z-index: 2;
         width: 100%;
-        */
+  
         visibility:hidden;
     }
 
@@ -179,3 +184,4 @@
     }
 }
 
+*/

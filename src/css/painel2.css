@@ -1,0 +1,29 @@
+.painel-2 {
+	padding: 3px 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.img-painel2 {
+    position: relative;
+    border-radius: 50px;
+    border-color: black;
+ 
+}
+
+.titulo-sobre {
+    position: relative;
+    left: 850px;
+    top: -450px;
+    font-size: 50px;
+}
+
+.texto-sobre {
+    position: relative;
+    width: 3vw;
+    font-size: 30px;
+    text-align: justify;
+    padding: 20px;
+}
