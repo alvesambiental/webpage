@@ -8,6 +8,7 @@
 
 .img-painel2 {
     position: relative;
+    width: 96%;
     border-radius: 50px;
     border-color: black;
  
@@ -15,15 +16,12 @@
 
 .titulo-sobre {
     position: relative;
-    left: 850px;
-    top: -450px;
-    font-size: 50px;
+    font-size: 6vw;
 }
 
 .texto-sobre {
     position: relative;
-    width: 3vw;
-    font-size: 30px;
+    font-size: 3vw;
     text-align: justify;
     padding: 20px;
 }
