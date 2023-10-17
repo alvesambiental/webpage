@@ -78,3 +78,14 @@
     border-radius: 50px;
 
 }
+
+/*--------------------------------------- PARA PC ------------------------------------------------------*/
+/*@media only screen and (min-width: 1265px) {*/
+/* ------------------------------------  PARA PC E TABLET GRANDE ------------------------------------- */
+/*@media only screen and (max-width: 1265px) and (min-width: 900px) {*/
+/* ------------------------------------  PARA TABLET E CELULAR DEITADO  ------------------------------------- */
+/*@media only screen and (max-width: 900px) and (min-width: 615px) {/*
+/* ------------------------------------  PARA CELULAR GRANDE  ------------------------------------- */
+/*@media only screen and (max-width: 615px) and (min-width: 300px) {*/
+/* ------------------------------------  PARA CELULAR PEQUENO  ------------------------------------- */
+/*@media only screen and (max-width: 300px)  {*/
