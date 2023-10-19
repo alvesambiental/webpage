@@ -204,7 +204,7 @@
 @media only screen and (max-width: 615px) 
     .painel-1-topo {
         width: 100%;
-        display:flex;
+        display: flex;
         flex-direction: column;
         margin: 5vw;
     }
