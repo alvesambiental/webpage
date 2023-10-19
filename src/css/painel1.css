@@ -9,13 +9,7 @@
         width: 100%;
         
     }
-    
-    .painel-1-capa {
-        display:grid;   
-        width: 100%;
-        padding: 3px 10px;
-    }
-    
+        
     .tab-menu {
         width: 55%;
         display: flex;
@@ -45,17 +39,27 @@
     
     }
     
-    
+    .painel-1-capa {
+        display:flex;
+        position:static;   
+        width: 100%;
+        height: 50vw;
+        padding: 3px 10px;
+
+    }
+
     .frase-capa {
+        position: relative;
         text-shadow: rgb(159, 159, 159) 2px 0px 0px, rgb(159, 159, 159) 1.75517px 0.958851px 0px, rgb(159, 159, 159) 1.0806px 1.68294px 0px, rgb(159, 159, 159) 0.141474px 1.99499px 0px, rgb(159, 159, 159) -0.832294px 1.81859px 0px, rgb(159, 159, 159) -1.60229px 1.19694px 0px, rgb(159, 159, 159) -1.97998px 0.28224px 0px, rgb(159, 159, 159) -1.87291px -0.701566px 0px, rgb(159, 159, 159) -1.30729px -1.5136px 0px, rgb(159, 159, 159) -0.421592px -1.95506px 0px, rgb(159, 159, 159) 0.567324px -1.91785px 0px, rgb(159, 159, 159) 1.41734px -1.41108px 0px, rgb(159, 159, 159) 1.92034px -0.558831px 0px;
         z-index: 2;
         color: aquamarine;
-        font-size: 9vw;
+        font-size: 7vw;
+        top: -80px;
     }
 
     .img-fundo-p1 {
         width: 110%;
-        position: relative;
+        position:absolute;
         left: -1%;
         z-index: 0;
     }
@@ -70,19 +74,6 @@
 
     }
     
-    .painel-1-capa {
-        width: 100%;
-        padding: 3px 10px;
-        display: flexbox;
-    }
-    
-    .img-fundo-p1 {
-        width: 110%;
-        position: relative;
-        left: -1%;
-        z-index: 0;
-    }
-
     .titulo-div-p1 {
         /*
         z-index: 2;
@@ -114,11 +105,220 @@
         padding-right: 2VW;
 
     }
+
+    .painel-1-capa {
+        display:flex;
+        position:static;   
+        width: 100%;
+        height: 50vw;
+        padding: 3px 10px;
+
+    }
+
+    .frase-capa {
+        position: relative;
+        text-shadow: rgb(159, 159, 159) 2px 0px 0px, rgb(159, 159, 159) 1.75517px 0.958851px 0px, rgb(159, 159, 159) 1.0806px 1.68294px 0px, rgb(159, 159, 159) 0.141474px 1.99499px 0px, rgb(159, 159, 159) -0.832294px 1.81859px 0px, rgb(159, 159, 159) -1.60229px 1.19694px 0px, rgb(159, 159, 159) -1.97998px 0.28224px 0px, rgb(159, 159, 159) -1.87291px -0.701566px 0px, rgb(159, 159, 159) -1.30729px -1.5136px 0px, rgb(159, 159, 159) -0.421592px -1.95506px 0px, rgb(159, 159, 159) 0.567324px -1.91785px 0px, rgb(159, 159, 159) 1.41734px -1.41108px 0px, rgb(159, 159, 159) 1.92034px -0.558831px 0px;
+        z-index: 2;
+        color: aquamarine;
+        font-size: 7vw;
+        top: -40px;
+    }
+
+    .img-fundo-p1 {
+        width: 110%;
+        position:absolute;
+        left: -1%;
+        z-index: 0;
+    }
 }
 
 /* ------------------------------------  PARA TABLET E CELULAR DEITADO  ------------------------------------- */
-/*@media only screen and (max-width: 900px) and (min-width: 615px) {/*
-/* ------------------------------------  PARA CELULAR GRANDE  ------------------------------------- */
-/*@media only screen and (max-width: 615px) and (min-width: 300px) {*/
-/* ------------------------------------  PARA CELULAR PEQUENO  ------------------------------------- */
-/*@media only screen and (max-width: 300px)  {*/
+@media only screen and (max-width: 900px) and (min-width: 615px) {
+    .painel-1-topo {
+        width: 100%;
+        
+        display:flex;
+
+    }
+    
+    .titulo-div-p1 {
+        /*
+        z-index: 2;
+        width: 100%;
+        */
+        
+        font-size:0px;
+
+    }
+
+    .img-logo {
+        width: 25VW;;
+    }
+
+    .tab-menu {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 4vw;
+        align-items: center;    
+        
+    }
+    
+    .cel-menu {
+        width: auto;
+        padding-left: 2VW;
+        padding-right: 2VW;
+
+    }
+
+    .painel-1-capa {
+        display:flex;
+        position:static;   
+        width: 100%;
+        height: 50vw;
+        padding: 3px 10px;
+
+    }
+
+    .frase-capa {
+        position: relative;
+        text-shadow: rgb(159, 159, 159) 2px 0px 0px, rgb(159, 159, 159) 1.75517px 0.958851px 0px, rgb(159, 159, 159) 1.0806px 1.68294px 0px, rgb(159, 159, 159) 0.141474px 1.99499px 0px, rgb(159, 159, 159) -0.832294px 1.81859px 0px, rgb(159, 159, 159) -1.60229px 1.19694px 0px, rgb(159, 159, 159) -1.97998px 0.28224px 0px, rgb(159, 159, 159) -1.87291px -0.701566px 0px, rgb(159, 159, 159) -1.30729px -1.5136px 0px, rgb(159, 159, 159) -0.421592px -1.95506px 0px, rgb(159, 159, 159) 0.567324px -1.91785px 0px, rgb(159, 159, 159) 1.41734px -1.41108px 0px, rgb(159, 159, 159) 1.92034px -0.558831px 0px;
+        z-index: 2;
+        color: aquamarine;
+        font-size: 7vw;
+        top: -30px;
+    }
+
+    .img-fundo-p1 {
+        width: 110%;
+        position:absolute;
+        left: -1%;
+        z-index: 0;
+    }
+}
+
+
+    /* ------------------------------------  PARA CELULAR GRANDE  ------------------------------------- */
+@media only screen and (max-width: 615px) and (min-width: 395px) {
+    .painel-1-topo {
+        width: 100%;
+        display:flex;
+    }
+    
+    .titulo-div-p1 {
+        font-size:0px;
+    }
+
+    .img-logo {
+        width: 25vw;
+    }
+
+    .tab-menu {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 3,5vw;
+        align-items: center;    
+
+    }
+    
+    .cel-menu {
+        width: auto;
+        padding-left: 2VW;
+        padding-right: 2VW;
+
+    }
+
+    .painel-1-capa {
+        display:flex;
+        position:static;   
+        width: 100%;
+        height: 50vw;
+        padding: 3px 10px;
+
+    }
+
+    .frase-capa {
+        position: relative;
+        text-shadow: rgb(159, 159, 159) 2px 0px 0px, rgb(159, 159, 159) 1.75517px 0.958851px 0px, rgb(159, 159, 159) 1.0806px 1.68294px 0px, rgb(159, 159, 159) 0.141474px 1.99499px 0px, rgb(159, 159, 159) -0.832294px 1.81859px 0px, rgb(159, 159, 159) -1.60229px 1.19694px 0px, rgb(159, 159, 159) -1.97998px 0.28224px 0px, rgb(159, 159, 159) -1.87291px -0.701566px 0px, rgb(159, 159, 159) -1.30729px -1.5136px 0px, rgb(159, 159, 159) -0.421592px -1.95506px 0px, rgb(159, 159, 159) 0.567324px -1.91785px 0px, rgb(159, 159, 159) 1.41734px -1.41108px 0px, rgb(159, 159, 159) 1.92034px -0.558831px 0px;
+        z-index: 2;
+        color: aquamarine;
+        font-size: 6vw;
+        top: -10px;
+    }
+
+    .img-fundo-p1 {
+        width: 110%;
+        position:absolute;
+        left: -1%;
+        z-index: 0;
+    }
+}
+
+
+    /* ------------------------------------  PARA CELULAR PEQUENO  ------------------------------------- */
+@media only screen and (max-width: 395px)  {
+    .painel-1-topo {
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        margin: 5vw;
+    }
+    
+    .titulo-div-p1 {
+        font-size:0px;
+    }
+
+    .img-logo {
+        width: 80VW;
+    }
+
+    .tab-menu {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 3,5vw;
+        align-items: center;    
+        margin: 5vw;        
+        flex-direction: column;
+    }
+    
+    .cel-menu {
+        width: auto;
+        padding-left: 2VW;
+        padding-right: 2VW;
+
+    }
+
+    .painel-1-capa {
+        display:flex;
+        position:static;   
+        width: 100%;
+        height: 50vw;
+        padding: 3px 10px;
+
+    }
+
+    .frase-capa {
+        position: relative;
+        text-shadow: rgb(159, 159, 159) 2px 0px 0px, rgb(159, 159, 159) 1.75517px 0.958851px 0px, rgb(159, 159, 159) 1.0806px 1.68294px 0px, rgb(159, 159, 159) 0.141474px 1.99499px 0px, rgb(159, 159, 159) -0.832294px 1.81859px 0px, rgb(159, 159, 159) -1.60229px 1.19694px 0px, rgb(159, 159, 159) -1.97998px 0.28224px 0px, rgb(159, 159, 159) -1.87291px -0.701566px 0px, rgb(159, 159, 159) -1.30729px -1.5136px 0px, rgb(159, 159, 159) -0.421592px -1.95506px 0px, rgb(159, 159, 159) 0.567324px -1.91785px 0px, rgb(159, 159, 159) 1.41734px -1.41108px 0px, rgb(159, 159, 159) 1.92034px -0.558831px 0px;
+        z-index: 2;
+        color: aquamarine;
+        font-size: 6vw;
+        top: -10px;
+    }
+
+    .img-fundo-p1 {
+        width: 110%;
+        position:absolute;
+        left: -1%;
+        z-index: 0;
+    }
+}
+
