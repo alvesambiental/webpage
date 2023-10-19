@@ -11,59 +11,53 @@
     }
     
     .painel-1-capa {
-        
+        display:grid;   
         width: 100%;
         padding: 3px 10px;
     }
     
     .tab-menu {
-        width: 80%;
+        width: 55%;
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
-    }
-    
-    .titulo-p1 {
-        /*
-        z-index: 2;
-        width: 100%;
-        */
-        font-size: 6vw;
-        
         justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        align-items: center;    
+        
     }
     
+    .cel-menu {
+        width: auto;
+        padding-left: 2VW;
+        padding-right: 2VW;
+
+    }
+
+
     .titulo-div-p1 {
-        font-size: 6vw;    
-        width: 50%px;
-        top: 50px;
+        font-size: 5vw;    
+        width: 45%;
+        height: 100%;
+        top: 30px;
         position: relative;
         text-shadow: rgb(159, 159, 159) 2px 0px 0px, rgb(159, 159, 159) 1.75517px 0.958851px 0px, rgb(159, 159, 159) 1.0806px 1.68294px 0px, rgb(159, 159, 159) 0.141474px 1.99499px 0px, rgb(159, 159, 159) -0.832294px 1.81859px 0px, rgb(159, 159, 159) -1.60229px 1.19694px 0px, rgb(159, 159, 159) -1.97998px 0.28224px 0px, rgb(159, 159, 159) -1.87291px -0.701566px 0px, rgb(159, 159, 159) -1.30729px -1.5136px 0px, rgb(159, 159, 159) -0.421592px -1.95506px 0px, rgb(159, 159, 159) 0.567324px -1.91785px 0px, rgb(159, 159, 159) 1.41734px -1.41108px 0px, rgb(159, 159, 159) 1.92034px -0.558831px 0px;
     
     }
     
-    .tab-menu {
-        
-        border: 5px;
-        border-color: black;
-    
-        
-        
-        font-size: 30px;
-        align-items: center;    
-    }
-    
-    .cel-menu {
-        padding-left: 30px;
-        padding-right:  30px;
-        
-    }
     
     .frase-capa {
         text-shadow: rgb(159, 159, 159) 2px 0px 0px, rgb(159, 159, 159) 1.75517px 0.958851px 0px, rgb(159, 159, 159) 1.0806px 1.68294px 0px, rgb(159, 159, 159) 0.141474px 1.99499px 0px, rgb(159, 159, 159) -0.832294px 1.81859px 0px, rgb(159, 159, 159) -1.60229px 1.19694px 0px, rgb(159, 159, 159) -1.97998px 0.28224px 0px, rgb(159, 159, 159) -1.87291px -0.701566px 0px, rgb(159, 159, 159) -1.30729px -1.5136px 0px, rgb(159, 159, 159) -0.421592px -1.95506px 0px, rgb(159, 159, 159) 0.567324px -1.91785px 0px, rgb(159, 159, 159) 1.41734px -1.41108px 0px, rgb(159, 159, 159) 1.92034px -0.558831px 0px;
         z-index: 2;
         color: aquamarine;
         font-size: 9vw;
+    }
+
+    .img-fundo-p1 {
+        width: 110%;
+        position: relative;
+        left: -1%;
+        z-index: 0;
     }
 }    
     
@@ -85,7 +79,7 @@
     .img-fundo-p1 {
         width: 110%;
         position: relative;
-        left: -10%;
+        left: -1%;
         z-index: 0;
     }
 
@@ -95,18 +89,30 @@
         width: 100%;
         */
         
-        font-size:60px;
+        font-size:0px;
+
     }
 
     .img-logo {
-
+        width: 20VW;;
     }
 
     .tab-menu {
-        width: 600px;
+        width: 70%;
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        align-items: center;    
+        
+    }
+    
+    .cel-menu {
+        width: auto;
+        padding-left: 2VW;
+        padding-right: 2VW;
+
     }
 }
 
