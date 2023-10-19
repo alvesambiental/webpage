@@ -201,7 +201,7 @@
 
 
     /* ------------------------------------  PARA CELULAR GRANDE  ------------------------------------- */
-@media only screen and (max-width: 615px) 
+    @media only screen and (max-width: 615px) {
     .painel-1-topo {
         width: 100%;
         display: flex;
@@ -223,7 +223,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        font-size: 3,5vw;
+        font-size: 6vw;
         align-items: center;    
         margin: 5vw;        
         flex-direction: column;
