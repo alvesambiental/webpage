@@ -1,32 +1,44 @@
-.painel-2 {
+/*--------------------------------------- PARA PC ------------------------------------------------------*/
+@media only screen and (min-width: 1265px) {
+        .painel-2 {
+        margin-top: 10vw;
+        padding: 3px 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .img-painel2 {
+        position: relative;
+        width: 95%;
+        border-radius: 50px;
+        border-color: black;
     
-	padding: 3px 10px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
+    }
 
-.img-painel2 {
-    position: relative;
-    width: 96%;
-    border-radius: 50px;
-    border-color: black;
- 
-}
+    .titulo-sobre {
+        position: relative;
+        font-size: 6vw;
+        margin-top: -20px;
+    }
 
-.titulo-sobre {
-    position: relative;
-    font-size: 6vw;
-}
+    .texto-sobre {
+        width: 85%;
+        position: relative;
+        font-size: 1.8vw;
+        text-align: justify;
+        margin-top: -50px;
+    }
 
-.texto-sobre {
-    position: relative;
-    font-size: 3vw;
-    text-align: justify;
-    padding: 20px;
+    .div-img-painel2 {
+        width: 50%;
+    }
+    
+    .div-txt-painel2 {
+        width: 50%;
+    }
 }
-
 /*--------------------------------------- PARA PC ------------------------------------------------------*/
 /*@media only screen and (min-width: 1265px) {*/
 /* ------------------------------------  PARA PC E TABLET GRANDE ------------------------------------- */
@@ -36,4 +48,33 @@
 /* ------------------------------------  PARA CELULAR GRANDE  ------------------------------------- */
 /*@media only screen and (max-width: 615px) and (min-width: 300px) {*/
 /* ------------------------------------  PARA CELULAR PEQUENO  ------------------------------------- */
-/*@media only screen and (max-width: 300px)  {*/
+@media only screen and (max-width: 300px)  {
+    .painel-2 {
+        margin-top: 5vw;
+        padding: 3px 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .img-painel2 {
+        position: relative;
+        width: 96%;
+        border-radius: 50px;
+        border-color: black;
+    
+    }
+
+    .titulo-sobre {
+        position: relative;
+        font-size: 6vw;
+    }
+
+    .texto-sobre {
+        position: relative;
+        font-size: 3vw;
+        text-align: justify;
+        padding: 20px;
+    }
+}    
