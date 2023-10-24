@@ -1,3 +1,23 @@
+
+const myObserver = new IntersectionObserver( (entries) => {
+    entries.forEach( (entry) => {
+        if(entry.isIntersecting){
+            entry.target.classList.add('show')
+        } else {
+            entry.target.classList.remove('show')
+        }
+    })
+})
+
+//Variavel que busca um elemento no html(document)
+const elements = document.querySelectorAll('.hidden')
+
+elements.forEach( (Element) => myObserver.observe(Element))
+
+
+
+// ---------------------------------------------------------------------------------teste 2
+/*
 const boxes = document.querySelectorAll('.box');
 
 window.addEventListener('scroll', checkboxes);
@@ -25,7 +45,11 @@ function checkboxes() {
             box.classList.remove('enter');
             box.classList.add('exit');
         }
+*/
 
+// ---------------------------------------------------------------------------------teste 1
+
+/*
 //        if(boxTop > triggerTop) {
 
 //if(scrollY > 3500 && scrollY < 4700){
