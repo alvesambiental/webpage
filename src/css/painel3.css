@@ -1,15 +1,16 @@
 
 .painel-3 { 
     width: 100%;
-    height: 4800px;    /* 7X PAINEIS DE 750 PX */
-    border: 1px solid #999999;
-    display: flex;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .tit-servicos {
+    width: 100%;
+    background-color: yellow;
+    color: black;
     display: flex;
     font-size: 30px;
     justify-content: center;
@@ -28,6 +29,14 @@
 
 .img-mudas {
     height: 450px;
+    padding-right: 100px;
+    padding-top: 100px;
+    border-radius: 50px;
+    width: 100%;
+}
+
+.tit-mudas {
+    justify-items: center;
     padding-right: 100px;
     padding-top: 100px;
     border-radius: 50px;
