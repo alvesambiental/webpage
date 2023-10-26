@@ -44,9 +44,71 @@
 /* ------------------------------------  PARA PC E TABLET GRANDE ------------------------------------- */
 /*@media only screen and (max-width: 1265px) and (min-width: 900px) {*/
 /* ------------------------------------  PARA TABLET E CELULAR DEITADO  ------------------------------------- */
-/*@media only screen and (max-width: 900px) and (min-width: 615px) {/*
+@media only screen and (max-width: 900px) and (min-width: 615px) {
+    
+    .painel-2 {
+        margin-top: 5vw;
+        padding: 3px 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .img-painel2 {
+        position: relative;
+        width: 96%;
+        border-radius: 50px;
+        border-color: black;
+    
+    }
+
+    .titulo-sobre {
+        position: relative;
+        font-size: 6vw;
+    }
+
+    .texto-sobre {
+        position: relative;
+        font-size: 3vw;
+        text-align: justify;
+        padding: 20px;
+    }
+}    
+
 /* ------------------------------------  PARA CELULAR GRANDE  ------------------------------------- */
-/*@media only screen and (max-width: 615px) and (min-width: 300px) {*/
+@media only screen and (max-width: 615px) and (min-width: 300px) {
+    
+        .painel-2 {
+            margin-top: 5vw;
+            padding: 3px 10px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+    
+        .img-painel2 {
+            position: relative;
+            width: 96%;
+            border-radius: 50px;
+            border-color: black;
+        
+        }
+    
+        .titulo-sobre {
+            position: relative;
+            font-size: 6vw;
+        }
+    
+        .texto-sobre {
+            position: relative;
+            font-size: 3vw;
+            text-align: justify;
+            padding: 20px;
+        }
+    }    
+    
 /* ------------------------------------  PARA CELULAR PEQUENO  ------------------------------------- */
 @media only screen and (max-width: 300px)  {
     .painel-2 {
