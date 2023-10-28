@@ -77,13 +77,13 @@
 }    
 
 /* ------------------------------------  PARA CELULAR GRANDE  ------------------------------------- */
-@media only screen and (max-width: 615px) and (min-width: 300px) {
+@media only screen and (max-width: 615px) {
     
         .painel-2 {
+            display: flex;
             margin-top: 5vw;
             padding: 3px 10px;
-            width: 100%;
-            display: flex;
+            width: 95%;
             flex-direction: column;
             justify-content: flex-end;
         }
@@ -97,46 +97,18 @@
         }
     
         .titulo-sobre {
+            display: flex;
             position: relative;
             font-size: 6vw;
+            justify-content: center;
+            text-transform:uppercase;
         }
     
         .texto-sobre {
             position: relative;
-            font-size: 3vw;
+            size: 6vw;
             text-align: justify;
-            padding: 20px;
+            padding: 0px;
         }
     }    
     
-/* ------------------------------------  PARA CELULAR PEQUENO  ------------------------------------- */
-@media only screen and (max-width: 300px)  {
-    .painel-2 {
-        margin-top: 5vw;
-        padding: 3px 10px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-    }
-
-    .img-painel2 {
-        position: relative;
-        width: 96%;
-        border-radius: 50px;
-        border-color: black;
-    
-    }
-
-    .titulo-sobre {
-        position: relative;
-        font-size: 6vw;
-    }
-
-    .texto-sobre {
-        position: relative;
-        font-size: 3vw;
-        text-align: justify;
-        padding: 20px;
-    }
-}    

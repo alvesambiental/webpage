@@ -96,6 +96,91 @@
 /* ------------------------------------  PARA TABLET E CELULAR DEITADO  ------------------------------------- */
 /*@media only screen and (max-width: 900px) and (min-width: 615px) {/*
 /* ------------------------------------  PARA CELULAR GRANDE  ------------------------------------- */
-/*@media only screen and (max-width: 615px) and (min-width: 300px) {*/
-/* ------------------------------------  PARA CELULAR PEQUENO  ------------------------------------- */
-/*@media only screen and (max-width: 300px)  {*/
+@media only screen and (max-width: 615px)  {
+    .painel-3 {
+        display: flex;
+        width: 100%;
+    }
+    
+    .tit-servicos {
+        display:flex;
+    
+        background-color: yellow;
+        color: black;
+        font-size: 30px;
+        justify-content: center;
+        top: -100px;
+    }
+ 
+    
+    .painel-servicos {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        height: 700px;
+        border: 1px solid #999999;
+        padding-top: 50PX;
+    }
+
+    .img-mudas {
+        height: 450px;
+        padding-right: 100px;
+        padding-top: 100px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .tit-mudas {
+        justify-items: center;
+        padding-right: 100px;
+        padding-top: 100px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .img-muda {
+        position: relative;
+        height: 200px;
+        padding-right: 50px;
+        left: 10px;
+        
+    }
+
+    .img-corte {
+        height: 450px;
+        padding-right: 100px;
+        padding-top: 100px;
+        border-radius: 50px;
+    }
+
+    .img-motoserra {
+        position: relative;
+        height: 200px;
+        padding-right: 50px;
+        left: 200px;
+    }
+
+    .card-second {
+        padding-top: 100px;
+        width: 600px;
+        text-align: justify;
+        padding-right: 30px;
+        
+    }
+
+    .img-monit {
+        height: 450px;
+        padding-right: 100px;
+        padding-top: 100px;
+        border-radius: 50px;
+
+    }
+
+    .img-licensa {
+        height: 450px;
+        padding-right: 100px;
+        padding-top: 100px;
+        border-radius: 50px;
+   
+    
+}

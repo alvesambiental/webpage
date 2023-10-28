@@ -240,12 +240,13 @@
     .painel-1-capa {
         display:flex;
         position:static;   
-        width: 100%;
+        width: 95%;
         height: 80vw;
         padding: 3px 10px;
         background-image: url(https://alvesambiental.github.io/webpage/src/img/fundo-capa.jpg);
         background-size: cover;
         background-position: -70vw;
+        
     }
 
 
