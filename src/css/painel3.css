@@ -18,14 +18,6 @@
 }
 
 
-.painel-servicos {
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    height: 700px;
-    border: 1px solid #999999;
-    padding-top: 50PX;
-}
 
 .img-mudas {
     height: 450px;
@@ -113,37 +105,57 @@
     }
  
     
-    .painel-servicos {
+    .img-mudas {
+        height: 350px;
+        padding-right: 10px;
+        padding-top: 10px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .img-semente {
+        height: 350px;
+        padding-right: 10px;
+        padding-top: 10px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .img-venda-semente {
+        height: 350px;
+        padding-right: 10px;
+        padding-top: 10px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    
+
+    .hidden H3 {
         display: flex;
         justify-content: center;
-        font-size: 30px;
-        height: 700px;
-        border: 1px solid #999999;
-        padding-top: 50PX;
-    }
-
-    .img-mudas {
-        height: 450px;
-        padding-right: 100px;
-        padding-top: 100px;
-        border-radius: 50px;
+        padding-top: 10px;
+        border-radius: 5px;
         width: 100%;
+        font-size: 7vw;
     }
 
-    .tit-mudas {
+    .hidden p {
+        font-size: 5vw;
+    }
+
+/*    
+    .hidden {
+        display: flex;
+        padding: 1VW;
+        border:1px;
+        border-style:solid;
         justify-items: center;
-        padding-right: 100px;
-        padding-top: 100px;
-        border-radius: 50px;
-        width: 100%;
     }
-
+*/ 
     .img-muda {
-        position: relative;
         height: 200px;
-        padding-right: 50px;
-        left: 10px;
-        
+        left: 100px;     
     }
 
     .img-corte {
