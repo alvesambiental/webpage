@@ -129,7 +129,14 @@
         width: 100%;
     }
 
-    
+    .img-plantio {
+        position: relative;
+        left: 70px;
+        padding: 10px;
+        
+        border-radius: 50px;
+        width: 50%;
+    }
 
     .hidden H3 {
         display: flex;
@@ -144,6 +151,10 @@
         font-size: 5vw;
     }
 
+    .desc {
+        display: flex;
+        justify-items: center;
+    }
 /*    
     .hidden {
         display: flex;
