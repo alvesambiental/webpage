@@ -11,6 +11,10 @@
     
 }
 
+.painel-contato a{
+    text-decoration: none;
+    color:grey;
+}
 
 /*--------------------------------------- PARA PC ------------------------------------------------------*/
 /*@media only screen and (min-width: 1265px) {*/
